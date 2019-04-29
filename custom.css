@@ -30,7 +30,8 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: hsl(180, 40%, 79%);
+    color: #3a4955;
+    text-decoration: underline;
 }
 
 .navbar-nav {
