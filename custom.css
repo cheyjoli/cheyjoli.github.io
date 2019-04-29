@@ -11,15 +11,18 @@
     text-align: center;
 }
 
-.color1,
 body {
-    background: #ffffff;
+    background: rgb(212, 240, 255);
     font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
     margin-bottom: 2em;
+}
+
+.navbar {
+    background: #A7E6FF
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -32,7 +35,7 @@ header {
 
 .navbar-nav {
     margin: 0 auto;
-    background: #C2EAFF;
+    background: #A7E6FF;
 }
 
 .navbar-nav .navbar-item {
@@ -56,6 +59,18 @@ header {
     text-align: center;
     border-left: 1px solid rgba(255, 255, 255, .75);
     border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.thumbnail {
+    transition: all 0.6s ease-in-out;
+    justify-content: center;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.thumbnail:hover {
+    opacity: 0.5;
+    box-shadow: 4px 4px 3px gray;
 }
 
 .footer {
@@ -88,4 +103,11 @@ header {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+
+/* media query for mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+    .thumbnail {
+        margin: 1em;
+    }
 }
