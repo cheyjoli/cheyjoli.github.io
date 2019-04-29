@@ -1,0 +1,161 @@
+.container {
+    background: rgb(255, 255, 255);
+}
+
+.site-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+}
+
+body {
+    background: rgb(212, 240, 255);
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.navbar {
+    background: #A7E6FF
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: hsl(180, 40%, 79%);
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    background: #A7E6FF;
+}
+
+.navbar-nav .navbar-item {
+    padding: 0;
+}
+
+.navbar-nav .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar-nav .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar-nav .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.container2 {
+    border-radius: 5px;
+    background-color: #C2EAFF;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.text {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.thumbnail {
+    margin-bottom: 1.5em;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #94C8FF;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(148, 200, 255, 0.699);
+}
+
+.footer {
+    background-color: #94C8FF;
+    padding: 0.6em;
+    margin-top: 4em;
+    font-size: 14px;
+    text-align: end;
+}
+
+.fa {
+    padding: 7px;
+    margin-right: 6px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* media query for mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+
+    .container2 {
+        position: relative;
+        left: 6em;
+    }
+
+    /* media query for mobile portrait layout (479px or less) */
+    @media only screen and (max-width: 479px) {
+        .container2 {
+            position: relative;
+            left: 5.3em;
+        }
+    }

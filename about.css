@@ -1,0 +1,120 @@
+.container {
+    background: rgb(255, 255, 255);
+}
+
+.site-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+}
+
+body {
+    background: rgb(212, 240, 255);
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.navbar {
+    background: #A7E6FF
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: hsl(180, 40%, 79%);
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    background: #A7E6FF;
+}
+
+.navbar-nav .navbar-item {
+    padding: 0;
+}
+
+.navbar-nav .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar-nav .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar-nav .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.text p {
+    background: #C2EAFF;
+    font-size: 0.9em;
+    padding: 1em;
+    min-height: 200px;
+}
+
+.thumbnail {
+    transition: all 0.6s ease-in-out;
+    justify-content: center;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.footer {
+    background: #94C8FF;
+    padding: 0.6em;
+    margin-top: 4em;
+    font-size: 14px;
+    text-align: end;
+}
+
+.fa {
+    padding: 7px;
+    margin-right: 6px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* media query for mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+    .thumbnail {
+        margin: 0.4em;
+        margin-bottom: 1.4em;
+    }
